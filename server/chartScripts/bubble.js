@@ -2,7 +2,7 @@
 
   var jsonPath = 'data/testData.json'
 
-  var diameter = 600,
+  var diameter = 960,
       format = d3.format(",d"),
       color = d3.scale.category20c();
 

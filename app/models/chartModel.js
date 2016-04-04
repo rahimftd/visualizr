@@ -11,7 +11,7 @@ var ChartModel = Backbone.Model.extend({
        chartfile: fileName
      },
      success: function(data) {
-       that.set('chartScript', data);
+      that.set('chartScript', data);
      }
    }); 
   }

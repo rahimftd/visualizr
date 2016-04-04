@@ -10,8 +10,8 @@ var ChartView = Backbone.View.extend({
   },
 
   render: function() {
+    this.$el.html('');
     this.$el.attr('class', 'row');
-    console.log('script', this.model.attributes);
     return this.$el.append(this.template(this.model.attributes));
   }
 
