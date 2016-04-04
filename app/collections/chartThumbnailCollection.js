@@ -1,3 +1,3 @@
-var ChartTumbnailCollection = Backbone.Collection.extend({
+var ChartThumbnailCollection = Backbone.Collection.extend({
   model: ChartThumbnailModel
 });

@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
   <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
   <script type="text/javascript" src="bower_components/backbone/backbone.js"></script>
+  <script type="text/javascript" src="bower_components/d3/d3.js"></script>
+
   <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+
+  <script type="text/javascript" src="data/chartThumbnailData.js"></script>
+
+  <script type="text/javascript" src="models/appModel.js"></script>
+  <script type="text/javascript" src="models/chartModel.js"></script>
+  <script type="text/javascript" src="models/chartThumbnailModel.js"></script>
+
+  <script type="text/javascript" src="collections/chartThumbnailCollection.js"></script>
+
+  <script type="text/javascript" src="views/appView.js"></script>
+  <script type="text/javascript" src="views/chartThumbnailCollectionView.js"></script>
+  <script type="text/javascript" src="views/chartThumbnailView.js"></script>
+  <script type="text/javascript" src="views/chartView.js"></script>
 </head>
 <body>
   <script type="text/javascript">
-    var chartLibrary = new ChartThumbnailCollection(chartThumbnailData);
-    var app = new AppModel{ chartLibrary: chartLibrary }; 
+    var app = new AppModel();
+
+    var appView = new AppView({ model: app });
+
+    $('body').append(appView.render()); 
   </script>
 </body>
 </html>
