@@ -10,7 +10,7 @@ var ChartThumbnailView = Backbone.View.extend({
   },
 
   render: function() {
-    this.$el.attr('class', 'col-md-4');
+    this.$el.attr('class', 'col-md-3 nav');
     return this.$el.html(this.template(this.model.attributes));
   }
 

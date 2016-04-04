@@ -31,7 +31,7 @@
 var jsonPath = 'data/testData.json';
 
 var margin = 20,
-    diameter = 960;
+    diameter = 800;
 
 var color = d3.scale.linear()
     .domain([-1, 5])

@@ -10,9 +10,13 @@ var ChartThumbnailCollectionView = Backbone.View.extend({
 
     this.$el.attr('class', 'row');
 
+    this.$el.append('<div class="col-md-1"></div>');
+
     this.$el.append(this.collection.map(function(thumbnail) {
       return new ChartThumbnailView({ model: thumbnail }).render()
     }));
+
+    this.$el.append('<div class="col-md-1"></div>');
   }
 
 });
