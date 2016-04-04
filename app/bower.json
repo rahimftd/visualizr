@@ -1,0 +1,25 @@
+{
+  "name": "visualizr",
+  "homepage": "https://github.com/rahimftd/visualizr",
+  "authors": [
+    "Rahim <rahim.dharssi@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "^1.3.2",
+    "jquery": "^2.2.2",
+    "underscore": "^1.8.3",
+    "bootstrap": "^3.3.6"
+  }
+}
