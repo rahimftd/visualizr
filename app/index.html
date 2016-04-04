@@ -7,44 +7,9 @@
   <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-2">
-      </div>
-      <div class="col-md-8">
-        <h1>Visualizr</h1>
-      </div>
-      <div class="col-md-2">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-2">
-      </div>
-      <div class="col-md-8">
-        <div class="row">
-          <div class="col-md-4">
-            <h3>Bubble</h3>
-          </div>
-          <div class="col-md-4">
-            <h3>Interactive Bubble</h3>
-          </div>
-          <div class="col-md-4">
-            <h3>Interactive Sunburst</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-2">
-      </div>
-      <div class="col-md-8" id="chart-container">
-        <img src="http://placehold.it/800x400">
-      </div>
-      <div class="col-md-2">
-      </div>
-    </div>
-  </div>
+  <script type="text/javascript">
+    var chartLibrary = new ChartThumbnailCollection(chartThumbnailData);
+    var app = new AppModel{ chartLibrary: chartLibrary }; 
+  </script>
 </body>
 </html>
