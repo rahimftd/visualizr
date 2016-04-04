@@ -31,3 +31,7 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# Bower and npm packages
+./server/node_modules/*
+./app/bower_components/*
