@@ -1,8 +1,8 @@
 <script>
 
-  var jsonPath = 'data/testData.json'
+  // var jsonPath = 'data/testdata.json'
 
-  var diameter = 800,
+  var diameter = 1000,
       format = d3.format(",d"),
       color = d3.scale.category20c();
 

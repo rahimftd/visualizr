@@ -5,7 +5,10 @@ var ChartView = Backbone.View.extend({
 
   initialize: function() {
     this.model.on('change', function() {
-      this.render();
+      console.log('detected a change', window.jsonPath);
+      if (this.model.get('chartScript')) {
+        this.render();
+      }
     }, this);
   },
 

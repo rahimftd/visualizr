@@ -1,0 +1,113 @@
+{
+  "name" : "Population by Geographic Region",
+  "children" : [
+    {
+      "name" : "Asia",
+      "children": [
+        {
+          "name": "Northern Asia",
+          "size": 143
+        },
+        {
+          "name": "Western Asia",
+          "size": 254
+        },
+        {
+          "name": "South Central Asia",
+          "size": 1859
+        },
+        {
+          "name": "Southeast Asia",
+          "size": 633
+        },
+        {
+          "name": "Southern Asia",
+          "size": 1793
+        },
+        {
+          "name": "East Asia",
+          "size": 1637
+        },
+        {
+          "name": "Central Asia",
+          "size": 66
+        }
+      ]
+    },
+    {
+      "name" : "Africa",
+      "children": [
+        {
+          "name": "Sub-Saharan Africa",
+          "size": 949
+        },
+        {
+          "name": "Northern Africa",
+          "size": 217
+        },
+        {
+          "name": "Western Africa",
+          "size": 349
+        },
+        {
+          "name": "Central Africa",
+          "size": 143
+        },
+        {
+          "name": "Eastern Africa",
+          "size": 394
+        },
+        {
+          "name": "Southern Africa",
+          "size": 61
+        }
+      ]
+    },
+    {
+      "name" : "The Americas and Caribbean",
+      "children": [
+        {
+          "name": "North America",
+          "size": 361
+        },
+        {
+          "name": "Central America",
+          "size": 172
+        },
+        {
+          "name": "Caribbean",
+          "size": 43
+        },
+        {
+          "name": "South America",
+          "size": 415
+        }
+      ]
+    },
+    {
+      "name" : "Europe",
+      "children": [
+        {
+          "name": "Northern Europe",
+          "size": 101
+        },
+        {
+          "name": "Western Europe",
+          "size": 193
+        },
+        {
+          "name": "Eastern Europe",
+          "size": 292
+        },
+        {
+          "name": "Southern Europe",
+          "size": 156
+        }
+      ]
+    },
+    {
+      "name" : "Oceania",
+      "size": 39
+    }
+  ]
+}

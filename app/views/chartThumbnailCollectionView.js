@@ -9,6 +9,7 @@ var ChartThumbnailCollectionView = Backbone.View.extend({
     this.$el.children().detach();
 
     this.$el.attr('class', 'row');
+    this.$el.attr('style', 'display: flex');
 
     this.$el.append('<div class="col-md-1"></div>');
 

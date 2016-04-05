@@ -1,8 +1,8 @@
 <script>
-var jsonPath = 'data/testData.json';
+// var jsonPath = 'data/testdata.json';
 
-var width = 800,
-    height = 600,
+var width = 1000,
+    height = 750,
     radius = Math.min(width, height) / 2;
 
 var x = d3.scale.linear()

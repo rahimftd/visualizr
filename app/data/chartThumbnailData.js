@@ -13,4 +13,19 @@ var chartThumbnailData = [
   title: 'Interactive Sunburst',
   file: 'interactivesunburst.js',
   image: 'https://camo.githubusercontent.com/3579d11cf675da2a12ffcdad356e524978b97434/687474703a2f2f64336a732e6f72672f65782f636f666665652e706e67'
+},
+{
+  title: 'Zoomable Tree',
+  file: 'tree.js',
+  image: 'https://camo.githubusercontent.com/3579d11cf675da2a12ffcdad356e524978b97434/687474703a2f2f64336a732e6f72672f65782f636f666665652e706e67'
+},
+{
+  title: 'Radial Tree',
+  file: 'radialtree.js',
+  image: 'https://camo.githubusercontent.com/3579d11cf675da2a12ffcdad356e524978b97434/687474703a2f2f64336a732e6f72672f65782f636f666665652e706e67'
+},
+{
+  title: 'Collapsing Tree',
+  file: 'collapsingtree.js',
+  image: 'https://camo.githubusercontent.com/3579d11cf675da2a12ffcdad356e524978b97434/687474703a2f2f64336a732e6f72672f65782f636f666665652e706e67'
 }];

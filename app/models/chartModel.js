@@ -1,5 +1,6 @@
 var ChartModel = Backbone.Model.extend({
   initialize: function() {
+    window.jsonPath = 'data/testdata.json'
   },
 
   getChartScript: function(fileName) {
@@ -14,5 +15,10 @@ var ChartModel = Backbone.Model.extend({
       that.set('chartScript', data);
      }
    }); 
+  },
+
+  loadNewDataset: function(dataset) {
+    window.jsonPath = dataset;
+    this.set('datasource', dataset);
   }
 });

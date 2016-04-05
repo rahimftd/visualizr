@@ -1,7 +1,7 @@
 var ChartThumbnailView = Backbone.View.extend({
   tagName: 'div',
 
-  template: _.template('<h3><%= title %></h3>'),
+  template: _.template('<h5><%= title %></h5>'),
 
   events: {
     'click': function() {
