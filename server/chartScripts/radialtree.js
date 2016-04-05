@@ -16,6 +16,7 @@
   }
 </style>
 <script>
+  jsonPath = app.get('chartModel').get('datasource');
   var diameter = 1000;
 
   var tree = d3.layout.tree()

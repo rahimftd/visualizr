@@ -71,6 +71,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
 
 
 // Get JSON data
+jsonPath = app.get('chartModel').get('datasource');
 treeJSON = d3.json(jsonPath, function(error, treeData) {
 
     // Calculate total nodes, max label length

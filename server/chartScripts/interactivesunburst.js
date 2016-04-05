@@ -1,5 +1,5 @@
 <script>
-// var jsonPath = 'data/testdata.json';
+jsonPath = app.get('chartModel').get('datasource');
 
 var width = 1000,
     height = 750,

@@ -12,6 +12,7 @@
   }
 </style>
 <script>
+  jsonPath = app.get('chartModel').get('datasource');
   var w = 1000,
       h = 1000,
       node,

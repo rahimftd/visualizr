@@ -28,7 +28,8 @@
 </style>
 <script>
 
-// var jsonPath = 'data/testdata.json';
+
+jsonPath = app.get('chartModel').get('datasource');
 
 var margin = 20,
     diameter = 1000;

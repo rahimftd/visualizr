@@ -1,6 +1,6 @@
 <script>
 
-  // var jsonPath = 'data/testdata.json'
+  jsonPath = app.get('chartModel').get('datasource');
 
   var diameter = 1000,
       format = d3.format(",d"),
