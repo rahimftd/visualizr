@@ -5,7 +5,8 @@ var fs = require('fs');
 var multer = require('multer');
 var upload = multer({ dest: './data'});
 var Promise = require('bluebird');
-var dataOption = require('./db/config.js').dataOption;
+var DataOption = require('./db/config.js').DataOption;
+var ChartOption = require('./db/config.js').ChartOption;
 
 var port = process.env.PORT || 3000;
 
@@ -40,7 +41,7 @@ app.post('/newchartdata', upload.single('json'), function(request, response) {
       name: fileTitle,
       file: filePath
     }
-    var newDataOption = new dataOption(dataOptionsObject).save(function(error, option) {
+    var newDataOption = new DataOption(dataOptionsObject).save(function(error, option) {
       if (error) {
         console.log('Could save new dataset', error);
         response.redirect('/');
@@ -55,9 +56,9 @@ app.post('/newchartdata', upload.single('json'), function(request, response) {
 
 // Serves dataset options to client
 app.get('/dataoptions', function(request, response) {
-  dataOption.find(function(error, options) {
+  DataOption.find(function(error, options) {
     if(error) {
-      console.log('Error retrieving data options form database', error);
+      console.log('Error retrieving data options from database', error);
       response.send(404);
     } else {
       response.send(JSON.stringify(options));
@@ -67,15 +68,14 @@ app.get('/dataoptions', function(request, response) {
 
 // Serves visualization options to client
 app.get('/chartoptions', function(request, response) {
-  var chartOptionsPath = __dirname + '/data/chartoptions.json';
-  fs.readFile(chartOptionsPath, function(error, data) {
+  ChartOption.find(function(error, options) {
     if (error) {
-      console.log('There was an error reading chart options', error);
+      console.log('Error in retrieving chart options form databse', error);
       response.send(404);
     } else {
-      response.send(data);
+      response.send(JSON.stringify(options));
     }
-  })
+  });
 });
 
 // Serves chart data to client
