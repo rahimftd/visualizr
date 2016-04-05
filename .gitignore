@@ -37,4 +37,4 @@ node_modules/
 client/bower_components/
 
 # DB files
-db/
+db/data/
