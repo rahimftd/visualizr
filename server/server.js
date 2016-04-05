@@ -6,7 +6,7 @@ var multer = require('multer');
 var upload = multer({ dest: './data'});
 var Promise = require('bluebird');
 
-var port = 3000;
+var port = process.env.PORT || 3000;
 
 app.use(express.static(__dirname + '/../app'));
 app.use(bodyParser());
