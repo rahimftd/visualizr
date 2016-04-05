@@ -17,7 +17,7 @@
 </style>
 <script>
   jsonPath = app.get('chartModel').get('datasource');
-  var diameter = 1000;
+  var diameter = parseInt(d3.select('#chart-container').style('width'), 10);
 
   var tree = d3.layout.tree()
       .size([360, diameter / 2 - 120])

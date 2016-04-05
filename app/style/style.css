@@ -1,5 +1,10 @@
-.nav {
-  text-align: center;
+.nav-item {
+  font-weight: 400;
+}
+
+.nav-item:hover {
+  font-weight: 700;
+  cursor: pointer;
 }
 
 #chart-container {
@@ -8,5 +13,22 @@
 }
 
 .body-header {
-  background-color: #e6f2ff;
+  background-color: #52527a;
+  height: 100px;
+  color: white;
+  border-radius: 5px;
+}
+
+.background {
+  fill-opacity: 0;
+}
+
+#menu-toggle {
+  text-align: left;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+#menu-toggle:hover {
+  font-weight: 700;
 }

@@ -26,46 +26,56 @@
 </head>
 <body>
   <div class="container">
+    <br>
     <div class="row">
       <div class="col-md-1">
       </div>
-      <div class="col-md-10 jumbotron jumbotron-fluid body-header" id="title-container">
+      <div class="col-md-10 body-header" id="title-container">
         <h1>Visualizr</h1>
         <h4>Interactive, user-friendly data visualizer</h4>
       </div>
       <div class="col-md-1">
       </div>
     </div>
-    <div class="row">
+    <br>
+    <div class="row menu">
       <div class="col-md-1">
       </div>
       <div class="col-md-10">
-        <nav class="navbar navbar-light" id="nav-container">
+        <nav class="navbar navbar-default navbar-light" id="nav-container">
         </nav>
       </div>
       <div class="col-md-1">
       </div>
     </div>
-    <div class="row">
+    <div class="row menu">
       <div class="col-md-1">
       </div>
-      <div class="col-md-10" id="data-container">
+      <div class="col-md-5" id="data-container">
+      </div>
+      <div class="col-md-5">
+        <form action="/newchartdata" method="POST" enctype="multipart/form-data" class="file-upload">
+          <h5>Upload your own dataset:</h5>
+          <input type="file" name="json"/> 
+          <br>
+          <input type="submit" value="Upload"/>
+        </form>
       </div>
       <div class="col-md-1">
       </div>
     </div>
-    <br>
+    <div class="row menu">
+      <div class="col-md-12">
+        <hr>
+      </div>
+    </div>
     <div class="row">
       <div class="col-md-1">
       </div>
-      <div class="col-md-10">
-        <form action="/newchartdata" method="POST" enctype="multipart/form-data">
-          Upload your own dataset:
-          <input type="file" name="json"> 
-          <input type="submit" value="Upload Data">
-        </form>
+      <div class="col-md-2">
+        <button class="btn btn-info" id="menu-toggle">Hide Menu</button>
       </div>
-      <div class="col-md-1">
+      <div class="col-md-9">
       </div>
     </div>
     <div class="row">
@@ -88,6 +98,15 @@
         window.appView = new AppView({ model: window.app });
         window.appView.render();
       })
+    });
+
+    $('#menu-toggle').click(function() {
+      $('.menu').toggle();
+      if ($('#menu-toggle').html() === 'Hide Menu') {
+        $('#menu-toggle').html('Show Menu');
+      } else {
+        $('#menu-toggle').html('Hide Menu');
+      }
     });
   </script>
 </body>

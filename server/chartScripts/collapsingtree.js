@@ -13,8 +13,8 @@
 </style>
 <script>
   jsonPath = app.get('chartModel').get('datasource');
-  var w = 1000,
-      h = 1000,
+  var w = parseInt(d3.select('#chart-container').style('width'), 10),
+      h = parseInt(d3.select('#chart-container').style('width'), 10),
       node,
       link,
       root;

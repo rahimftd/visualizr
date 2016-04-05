@@ -2,7 +2,7 @@
 
   jsonPath = app.get('chartModel').get('datasource');
 
-  var diameter = 1000,
+  var diameter = parseInt(d3.select('#chart-container').style('width'), 10),
       format = d3.format(",d"),
       color = d3.scale.category20c();
 

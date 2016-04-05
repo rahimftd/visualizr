@@ -1,0 +1,793 @@
+{
+  "name" : "Sports Championships by City",
+  "children" : [
+    {
+      "name" : "NY",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 35
+        },
+        {
+          "name": "NBA",
+          "size": 2
+        },
+        {
+          "name": "NFL",
+          "size": 9
+        },
+        {
+          "name": "NHL",
+          "size": 8
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "BOS",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 9
+        },
+        {
+          "name": "NBA",
+          "size": 17
+        },
+        {
+          "name": "NFL",
+          "size": 4
+        },
+        {
+          "name": "NHL",
+          "size": 6
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "CHI",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 5
+        },
+        {
+          "name": "NBA",
+          "size": 6
+        },
+        {
+          "name": "NFL",
+          "size": 11
+        },
+        {
+          "name": "NHL",
+          "size": 6
+        },
+        {
+          "name": "MLS",
+          "size": 1
+        }
+      ]
+    },
+    {
+      "name" : "LA",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 5
+        },
+        {
+          "name": "NBA",
+          "size": 16
+        },
+        {
+          "name": "NFL",
+          "size": 2
+        },
+        {
+          "name": "NHL",
+          "size": 2
+        },
+        {
+          "name": "MLS",
+          "size": 5
+        }
+      ]
+    },
+    {
+      "name" : "DET",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 4
+        },
+        {
+          "name": "NBA",
+          "size": 3
+        },
+        {
+          "name": "NFL",
+          "size": 4
+        },
+        {
+          "name": "NHL",
+          "size": 11
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "PHIL",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 7
+        },
+        {
+          "name": "NBA",
+          "size": 4
+        },
+        {
+          "name": "NFL",
+          "size": 3
+        },
+        {
+          "name": "NHL",
+          "size": 2
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "PITT",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 5
+        },
+        {
+          "name": "NBA",
+          "size": 0
+        },
+        {
+          "name": "NFL",
+          "size": 6
+        },
+        {
+          "name": "NHL",
+          "size": 3
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "Green Bay",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 0
+        },
+        {
+          "name": "NBA",
+          "size": 0
+        },
+        {
+          "name": "NFL",
+          "size": 13
+        },
+        {
+          "name": "NHL",
+          "size": 0
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "STL",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 11
+        },
+        {
+          "name": "NBA",
+          "size": 1
+        },
+        {
+          "name": "NFL",
+          "size": 1
+        },
+        {
+          "name": "NHL",
+          "size": 0
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "CLE",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 2
+        },
+        {
+          "name": "NBA",
+          "size": 0
+        },
+        {
+          "name": "NFL",
+          "size": 10
+        },
+        {
+          "name": "NHL",
+          "size": 0
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "DC",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 1
+        },
+        {
+          "name": "NBA",
+          "size": 1
+        },
+        {
+          "name": "NFL",
+          "size": 5
+        },
+        {
+          "name": "NHL",
+          "size": 0
+        },
+        {
+          "name": "MLS",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name" : "BAL",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 3
+        },
+        {
+          "name": "NBA",
+          "size": 1
+        },
+        {
+          "name": "NFL",
+          "size": 5
+        },
+        {
+          "name": "NHL",
+          "size": 0
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "DAL",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 0
+        },
+        {
+          "name": "NBA",
+          "size": 1
+        },
+        {
+          "name": "NFL",
+          "size": 6
+        },
+        {
+          "name": "NHL",
+          "size": 1
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "SF",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 3
+        },
+        {
+          "name": "NBA",
+          "size": 0
+        },
+        {
+          "name": "NFL",
+          "size": 5
+        },
+        {
+          "name": "NHL",
+          "size": 0
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "OAK",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 4
+        },
+        {
+          "name": "NBA",
+          "size": 2
+        },
+        {
+          "name": "NFL",
+          "size": 2
+        },
+        {
+          "name": "NHL",
+          "size": 0
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "MIA",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 2
+        },
+        {
+          "name": "NBA",
+          "size": 3
+        },
+        {
+          "name": "NFL",
+          "size": 2
+        },
+        {
+          "name": "NHL",
+          "size": 0
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "MINN",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 2
+        },
+        {
+          "name": "NBA",
+          "size": 5
+        },
+        {
+          "name": "NFL",
+          "size": 0
+        },
+        {
+          "name": "NHL",
+          "size": 0
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "HOU",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 0
+        },
+        {
+          "name": "NBA",
+          "size": 2
+        },
+        {
+          "name": "NFL",
+          "size": 2
+        },
+        {
+          "name": "NHL",
+          "size": 0
+        },
+        {
+          "name": "MLS",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name" : "DEN",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 0
+        },
+        {
+          "name": "NBA",
+          "size": 0
+        },
+        {
+          "name": "NFL",
+          "size": 3
+        },
+        {
+          "name": "NHL",
+          "size": 2
+        },
+        {
+          "name": "MLS",
+          "size": 1
+        }
+      ]
+    },
+    {
+      "name" : "San Antonio",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 0
+        },
+        {
+          "name": "NBA",
+          "size": 5
+        },
+        {
+          "name": "NFL",
+          "size": 0
+        },
+        {
+          "name": "NHL",
+          "size": 0
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "CIN",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 5
+        },
+        {
+          "name": "NBA",
+          "size": 0
+        },
+        {
+          "name": "NFL",
+          "size": 0
+        },
+        {
+          "name": "NHL",
+          "size": 0
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "KC",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 2
+        },
+        {
+          "name": "NBA",
+          "size": 0
+        },
+        {
+          "name": "NFL",
+          "size": 1
+        },
+        {
+          "name": "NHL",
+          "size": 0
+        },
+        {
+          "name": "MLS",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name" : "Newark",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 0
+        },
+        {
+          "name": "NBA",
+          "size": 0
+        },
+        {
+          "name": "NFL",
+          "size": 0
+        },
+        {
+          "name": "NHL",
+          "size": 3
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "SEA",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 0
+        },
+        {
+          "name": "NBA",
+          "size": 1
+        },
+        {
+          "name": "NFL",
+          "size": 1
+        },
+        {
+          "name": "NHL",
+          "size": 1
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "ANA",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 1
+        },
+        {
+          "name": "NBA",
+          "size": 0
+        },
+        {
+          "name": "NFL",
+          "size": 0
+        },
+        {
+          "name": "NHL",
+          "size": 1
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "BUF",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 0
+        },
+        {
+          "name": "NBA",
+          "size": 0
+        },
+        {
+          "name": "NFL",
+          "size": 2
+        },
+        {
+          "name": "NHL",
+          "size": 0
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "Canton",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 0
+        },
+        {
+          "name": "NBA",
+          "size": 0
+        },
+        {
+          "name": "NFL",
+          "size": 2
+        },
+        {
+          "name": "NHL",
+          "size": 0
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "MIL",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 1
+        },
+        {
+          "name": "NBA",
+          "size": 1
+        },
+        {
+          "name": "NFL",
+          "size": 0
+        },
+        {
+          "name": "NHL",
+          "size": 0
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "Tampa",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 0
+        },
+        {
+          "name": "NBA",
+          "size": 0
+        },
+        {
+          "name": "NFL",
+          "size": 1
+        },
+        {
+          "name": "NHL",
+          "size": 1
+        },
+        {
+          "name": "MLS",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name" : "SJ",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 0
+        },
+        {
+          "name": "NBA",
+          "size": 0
+        },
+        {
+          "name": "NFL",
+          "size": 0
+        },
+        {
+          "name": "NHL",
+          "size": 0
+        },
+        {
+          "name": "MLS",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name" : "POR",
+      "children": [
+        {
+          "name": "MLB",
+          "size": 0
+        },
+        {
+          "name": "NBA",
+          "size": 1
+        },
+        {
+          "name": "NFL",
+          "size": 0
+        },
+        {
+          "name": "NHL",
+          "size": 0
+        },
+        {
+          "name": "MLS",
+          "size": 1
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

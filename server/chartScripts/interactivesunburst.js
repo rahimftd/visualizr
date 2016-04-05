@@ -1,8 +1,8 @@
 <script>
 jsonPath = app.get('chartModel').get('datasource');
 
-var width = 1000,
-    height = 750,
+var width = parseInt(d3.select('#chart-container').style('width'), 10),
+    height = parseInt(d3.select('#chart-container').style('width'), 10),
     radius = Math.min(width, height) / 2;
 
 var x = d3.scale.linear()

@@ -32,7 +32,7 @@
 jsonPath = app.get('chartModel').get('datasource');
 
 var margin = 20,
-    diameter = 1000;
+    diameter = parseInt(d3.select('#chart-container').style('width'), 10);
 
 var color = d3.scale.linear()
     .domain([-1, 5])

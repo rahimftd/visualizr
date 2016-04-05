@@ -5,6 +5,7 @@ var fs = require('fs');
 var multer = require('multer');
 var upload = multer({ dest: './data'});
 var Promise = require('bluebird');
+var db = require('./db/config.js');
 
 var port = process.env.PORT || 3000;
 

@@ -8,7 +8,7 @@ var ChartThumbnailCollectionView = Backbone.View.extend({
   render: function() {
     this.$el.children().detach();
 
-    this.$el.attr('class', 'nav navbar-nav');
+    this.$el.attr('class', 'nav nav-pills');
 
     return this.$el.append(this.collection.map(function(thumbnail) {
       return new ChartThumbnailView({ model: thumbnail }).render()
