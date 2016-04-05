@@ -2,6 +2,9 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 var fs = require('fs');
+var multer = require('multer');
+var upload = multer({ dest: '../app/data'});
+var Promise = require('bluebird');
 
 var port = 3000;
 
@@ -26,9 +29,35 @@ app.get('/chartscripts', function(request, response) {
   });
 });
 
-app.post('/newchartdata', function(request, response) {
-  console.log('FILES', request.files);
-  response.redirect('/');
+app.post('/newchartdata', upload.single('json'), function(request, response) {
+  if(request.file){
+    var fileTitle = request.file.originalname;
+    var filePath = 'data/' + request.file.filename;
+    var dataOptionsObject = {
+      name: fileTitle,
+      file: filePath
+    }
+    var dataOptionsPath = __dirname + '/data/dataoptions.json';  
+    fs.readFile(dataOptionsPath, function(error, data) {
+      if (error) {
+        console.log('There was an error reading data options', error);
+      } else {
+        var dataOptions = JSON.parse(data);
+        dataOptions.push(dataOptionsObject);
+        dataOptions = JSON.stringify(dataOptions);
+        fs.writeFile(dataOptionsPath, dataOptions, function(error) {
+          if(error) {
+            console.log('There was a problem writing to data options', error);
+            response.redirect('/'); 
+          } else {
+            response.redirect('/');
+          }
+        })
+      }
+    });
+  } else {
+    response.redirect('/');
+  }
 });
 
 app.get('/dataoptions', function(request, response) {
