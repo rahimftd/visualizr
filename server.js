@@ -61,7 +61,6 @@ app.get('/dataoptions', function(request, response) {
       console.log('Error retrieving data options from database', error);
       response.send(404);
     } else {
-      console.log('dataoptions', options);
       response.send(JSON.stringify(options));
     }
   });
@@ -74,7 +73,6 @@ app.get('/chartoptions', function(request, response) {
       console.log('Error in retrieving chart options form databse', error);
       response.send(404);
     } else {
-      console.log('chartoptions', options);
       response.send(JSON.stringify(options));
     }
   });
