@@ -6,3 +6,7 @@
   text-align: center;
   overflow: scroll;
 }
+
+.body-header {
+  background-color: #e6f2ff;
+}

@@ -9,10 +9,6 @@
   <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="style/style.css">
 
-
-  <script type="text/javascript" src="data/chartThumbnailData.js"></script>
-  <!--<script type="text/javascript" src="data/dataOptions.js"></script>-->
-
   <script type="text/javascript" src="models/appModel.js"></script>
   <script type="text/javascript" src="models/chartModel.js"></script>
   <script type="text/javascript" src="models/chartThumbnailModel.js"></script>
@@ -33,22 +29,9 @@
     <div class="row">
       <div class="col-md-1">
       </div>
-      <div class="col-md-10 jumbotron jumbotron-fluid" id="title-container">
+      <div class="col-md-10 jumbotron jumbotron-fluid body-header" id="title-container">
         <h1>Visualizr</h1>
         <h4>Interactive, user-friendly data visualizer</h4>
-      </div>
-      <div class="col-md-1">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-1">
-      </div>
-      <div class="col-md-10">
-        <form action="/newchartdata" method="POST" enctype="multipart/form-data">
-          Select data to upload:
-          <input type="file" name="json"> 
-          <input type="submit" value="Upload Data">
-        </form>
       </div>
       <div class="col-md-1">
       </div>
@@ -71,6 +54,20 @@
       <div class="col-md-1">
       </div>
     </div>
+    <br>
+    <div class="row">
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-10">
+        <form action="/newchartdata" method="POST" enctype="multipart/form-data">
+          Upload your own dataset:
+          <input type="file" name="json"> 
+          <input type="submit" value="Upload Data">
+        </form>
+      </div>
+      <div class="col-md-1">
+      </div>
+    </div>
     <div class="row">
       <div class="col-md-1">
       </div>
@@ -84,11 +81,13 @@
     $.get('http://127.0.0.1:3000/dataoptions', function(data) {
       var parsedData = JSON.parse(data);
       window.dataOptions = parsedData;
-      window.app = new AppModel();
-
-      window.appView = new AppView({ model: window.app });
-
-      window.appView.render();
+      $.get('http://127.0.0.1:3000/chartoptions', function(data) {
+        var parsedData = JSON.parse(data);
+        window.chartOptions = parsedData;
+        window.app = new AppModel();
+        window.appView = new AppView({ model: window.app });
+        window.appView.render();
+      })
     });
   </script>
 </body>
