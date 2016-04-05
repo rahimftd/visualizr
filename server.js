@@ -10,7 +10,7 @@ var ChartOption = require('./db/config.js').ChartOption;
 
 var port = process.env.PORT || 3000;
 
-app.use(express.static(__dirname + '/../app'));
+app.use(express.static(__dirname + '/client'));
 app.use(bodyParser());
 
 app.use(function(request, response, next) {
