@@ -35,3 +35,4 @@ node_modules
 # Bower and npm packages
 server/node_modules/*
 app/bower_components/*
+db/*
