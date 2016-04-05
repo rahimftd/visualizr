@@ -33,8 +33,8 @@ node_modules
 .node_repl_history
 
 # Bower and npm packages
-node_modules/**
-client/bower_components/**
+/node_modules
+/client/bower_components
 
 # DB files
-db/**
+/db
