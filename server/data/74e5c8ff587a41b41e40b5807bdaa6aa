@@ -1,0 +1,500 @@
+{
+  "name" : "NYC Crime Stats",
+  "children" : [
+    {
+      "name" : "2000",
+      "children": [
+        {
+          "name": "Murder",
+          "size": 67
+        },
+        {
+          "name": "Rape",
+          "size": 207
+        },
+        {
+          "name": "Robbery",
+          "size": 3256
+        },
+        {
+          "name": "Felony Assault",
+          "size": 2592
+        },
+        {
+          "name": "Burglary",
+          "size": 3835
+        },
+        {
+          "name": "Grand Larceny",
+          "size": 4963
+        },
+        {
+          "name": "Grand Larcenty (Motor Vehicle)",
+          "size": 3544
+        }
+      ]
+    },
+    {
+      "name" : "2001",
+      "children": [
+        {
+          "name": "Murder",
+          "size": 65
+        },
+        {
+          "name": "Rape",
+          "size": 198
+        },
+        {
+          "name": "Robbery",
+          "size": 2820
+        },
+        {
+          "name": "Felony Assault",
+          "size": 2345
+        },
+        {
+          "name": "Burglary",
+          "size": 3276
+        },
+        {
+          "name": "Grand Larceny",
+          "size": 4633
+        },
+        {
+          "name": "Grand Larcenty (Motor Vehicle)",
+          "size": 2953
+        }
+      ]
+    },
+    {
+      "name" : "2002",
+      "children": [
+        {
+          "name": "Murder",
+          "size": 59
+        },
+        {
+          "name": "Rape",
+          "size": 214
+        },
+        {
+          "name": "Robbery",
+          "size": 2723
+        },
+        {
+          "name": "Felony Assault",
+          "size": 2115
+        },
+        {
+          "name": "Burglary",
+          "size": 3128
+        },
+        {
+          "name": "Grand Larceny",
+          "size": 4577
+        },
+        {
+          "name": "Grand Larcenty (Motor Vehicle)",
+          "size": 2666
+        }
+      ]
+    },
+    {
+      "name" : "2003",
+      "children": [
+        {
+          "name": "Murder",
+          "size": 60
+        },
+        {
+          "name": "Rape",
+          "size": 207
+        },
+        {
+          "name": "Robbery",
+          "size": 2599
+        },
+        {
+          "name": "Felony Assault",
+          "size": 1914
+        },
+        {
+          "name": "Burglary",
+          "size": 2911
+        },
+        {
+          "name": "Grand Larceny",
+          "size": 4675
+        },
+        {
+          "name": "Grand Larcenty (Motor Vehicle)",
+          "size": 2341
+        }
+      ]
+    },
+    {
+      "name" : "2004",
+      "children": [
+        {
+          "name": "Murder",
+          "size": 57
+        },
+        {
+          "name": "Rape",
+          "size": 190
+        },
+        {
+          "name": "Robbery",
+          "size": 2437
+        },
+        {
+          "name": "Felony Assault",
+          "size": 1862
+        },
+        {
+          "name": "Burglary",
+          "size": 2698
+        },
+        {
+          "name": "Grand Larceny",
+          "size": 4876
+        },
+        {
+          "name": "Grand Larcenty (Motor Vehicle)",
+          "size": 2088
+        }
+      ]
+    },
+    {
+      "name" : "2005",
+      "children": [
+        {
+          "name": "Murder",
+          "size": 54
+        },
+        {
+          "name": "Rape",
+          "size": 186
+        },
+        {
+          "name": "Robbery",
+          "size": 2472
+        },
+        {
+          "name": "Felony Assault",
+          "size": 1775
+        },
+        {
+          "name": "Burglary",
+          "size": 2412
+        },
+        {
+          "name": "Grand Larceny",
+          "size": 4824
+        },
+        {
+          "name": "Grand Larcenty (Motor Vehicle)",
+          "size": 1825
+        }
+      ]
+    },
+    {
+      "name" : "2006",
+      "children": [
+        {
+          "name": "Murder",
+          "size": 60
+        },
+        {
+          "name": "Rape",
+          "size": 153
+        },
+        {
+          "name": "Robbery",
+          "size": 2374
+        },
+        {
+          "name": "Felony Assault",
+          "size": 1731
+        },
+        {
+          "name": "Burglary",
+          "size": 2314
+        },
+        {
+          "name": "Grand Larceny",
+          "size": 4662
+        },
+        {
+          "name": "Grand Larcenty (Motor Vehicle)",
+          "size": 1575
+        }
+      ]
+    },
+    {
+      "name" : "2007",
+      "children": [
+        {
+          "name": "Murder",
+          "size": 50
+        },
+        {
+          "name": "Rape",
+          "size": 135
+        },
+        {
+          "name": "Robbery",
+          "size": 2181
+        },
+        {
+          "name": "Felony Assault",
+          "size": 1749
+        },
+        {
+          "name": "Burglary",
+          "size": 2176
+        },
+        {
+          "name": "Grand Larceny",
+          "size": 4492
+        },
+        {
+          "name": "Grand Larcenty (Motor Vehicle)",
+          "size": 1317
+        }
+      ]
+    },
+    {
+      "name" : "2008",
+      "children": [
+        {
+          "name": "Murder",
+          "size": 52
+        },
+        {
+          "name": "Rape",
+          "size": 130
+        },
+        {
+          "name": "Robbery",
+          "size": 2240
+        },
+        {
+          "name": "Felony Assault",
+          "size": 1628
+        },
+        {
+          "name": "Burglary",
+          "size": 2072
+        },
+        {
+          "name": "Grand Larceny",
+          "size": 4424
+        },
+        {
+          "name": "Grand Larcenty (Motor Vehicle)",
+          "size": 1248
+        }
+      ]
+    },
+    {
+      "name" : "2009",
+      "children": [
+        {
+          "name": "Murder",
+          "size": 47
+        },
+        {
+          "name": "Rape",
+          "size": 120
+        },
+        {
+          "name": "Robbery",
+          "size": 1860
+        },
+        {
+          "name": "Felony Assault",
+          "size": 1677
+        },
+        {
+          "name": "Burglary",
+          "size": 1943
+        },
+        {
+          "name": "Grand Larceny",
+          "size": 3958
+        },
+        {
+          "name": "Grand Larcenty (Motor Vehicle)",
+          "size": 1067
+        }
+      ]
+    },
+    {
+      "name" : "2010",
+      "children": [
+        {
+          "name": "Murder",
+          "size": 53
+        },
+        {
+          "name": "Rape",
+          "size": 137
+        },
+        {
+          "name": "Robbery",
+          "size": 1948
+        },
+        {
+          "name": "Felony Assault",
+          "size": 1695
+        },
+        {
+          "name": "Burglary",
+          "size": 1860
+        },
+        {
+          "name": "Grand Larceny",
+          "size": 3783
+        },
+        {
+          "name": "Grand Larcenty (Motor Vehicle)",
+          "size": 1032
+        }
+      ]
+    },
+    {
+      "name" : "2011",
+      "children": [
+        {
+          "name": "Murder",
+          "size": 51
+        },
+        {
+          "name": "Rape",
+          "size": 142
+        },
+        {
+          "name": "Robbery",
+          "size": 1971
+        },
+        {
+          "name": "Felony Assault",
+          "size": 1848
+        },
+        {
+          "name": "Burglary",
+          "size": 1872
+        },
+        {
+          "name": "Grand Larceny",
+          "size": 3850
+        },
+        {
+          "name": "Grand Larcenty (Motor Vehicle)",
+          "size": 931
+        }
+      ]
+    },
+    {
+      "name" : "2012",
+      "children": [
+        {
+          "name": "Murder",
+          "size": 41
+        },
+        {
+          "name": "Rape",
+          "size": 144
+        },
+        {
+          "name": "Robbery",
+          "size": 2014
+        },
+        {
+          "name": "Felony Assault",
+          "size": 1938
+        },
+        {
+          "name": "Burglary",
+          "size": 1916
+        },
+        {
+          "name": "Grand Larceny",
+          "size": 4249
+        },
+        {
+          "name": "Grand Larcenty (Motor Vehicle)",
+          "size": 809
+        }
+      ]
+    },
+    {
+      "name" : "2013",
+      "children": [
+        {
+          "name": "Murder",
+          "size": 33
+        },
+        {
+          "name": "Rape",
+          "size": 137
+        },
+        {
+          "name": "Robbery",
+          "size": 1912
+        },
+        {
+          "name": "Felony Assault",
+          "size": 2029
+        },
+        {
+          "name": "Burglary",
+          "size": 1742
+        },
+        {
+          "name": "Grand Larceny",
+          "size": 4536
+        },
+        {
+          "name": "Grand Larcenty (Motor Vehicle)",
+          "size": 740
+        }
+      ]
+    },
+    {
+      "name" : "2014",
+      "children": [
+        {
+          "name": "Murder",
+          "size": 33
+        },
+        {
+          "name": "Rape",
+          "size": 135
+        },
+        {
+          "name": "Robbery",
+          "size": 1653
+        },
+        {
+          "name": "Felony Assault",
+          "size": 2020
+        },
+        {
+          "name": "Burglary",
+          "size": 1676
+        },
+        {
+          "name": "Grand Larceny",
+          "size": 4386
+        },
+        {
+          "name": "Grand Larcenty (Motor Vehicle)",
+          "size": 766
+        }
+      ]
+    }
+  ]
+}

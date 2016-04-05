@@ -5,7 +5,7 @@ var fs = require('fs');
 var multer = require('multer');
 var upload = multer({ dest: './data'});
 var Promise = require('bluebird');
-var db = require('./db/config.js');
+var dataOption = require('./db/config.js').dataOption;
 
 var port = process.env.PORT || 3000;
 
@@ -40,24 +40,14 @@ app.post('/newchartdata', upload.single('json'), function(request, response) {
       name: fileTitle,
       file: filePath
     }
-    var dataOptionsPath = __dirname + '/data/dataoptions.json';  
-    fs.readFile(dataOptionsPath, function(error, data) {
+    var newDataOption = new dataOption(dataOptionsObject).save(function(error, option) {
       if (error) {
-        console.log('There was an error reading data options', error);
+        console.log('Could save new dataset', error);
+        response.redirect('/');
       } else {
-        var dataOptions = JSON.parse(data);
-        dataOptions.push(dataOptionsObject);
-        dataOptions = JSON.stringify(dataOptions);
-        fs.writeFile(dataOptionsPath, dataOptions, function(error) {
-          if(error) {
-            console.log('There was a problem writing to data options', error);
-            response.redirect('/'); 
-          } else {
-            response.redirect('/');
-          }
-        })
+        response.redirect('/');
       }
-    });
+    })
   } else {
     response.redirect('/');
   }
@@ -65,15 +55,14 @@ app.post('/newchartdata', upload.single('json'), function(request, response) {
 
 // Serves dataset options to client
 app.get('/dataoptions', function(request, response) {
-  var dataOptionsPath = __dirname + '/data/dataoptions.json';
-  fs.readFile(dataOptionsPath, function(error, data) {
-    if (error) {
-      console.log('There was an error reading data options', error);
+  dataOption.find(function(error, options) {
+    if(error) {
+      console.log('Error retrieving data options form database', error);
       response.send(404);
     } else {
-      response.send(data);
+      response.send(JSON.stringify(options));
     }
-  })
+  });
 });
 
 // Serves visualization options to client

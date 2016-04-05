@@ -21,6 +21,7 @@
 
 .background {
   fill-opacity: 0;
+  color: black;
 }
 
 #menu-toggle {
