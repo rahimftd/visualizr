@@ -88,10 +88,10 @@
     </div>
   </div>
   <script type="text/javascript">
-    $.get('http://127.0.0.1:3000/dataoptions', function(data) {
+    $.get('/dataoptions', function(data) {
       var parsedData = JSON.parse(data);
       window.dataOptions = parsedData;
-      $.get('http://127.0.0.1:3000/chartoptions', function(data) {
+      $.get('/chartoptions', function(data) {
         var parsedData = JSON.parse(data);
         window.chartOptions = parsedData;
         window.app = new AppModel();

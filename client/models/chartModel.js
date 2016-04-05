@@ -12,7 +12,7 @@ var ChartModel = Backbone.Model.extend({
     var that = this;
     $.ajax({
      method: 'GET',
-     url: 'http://127.0.0.1:3000/chartscripts',
+     url: '/chartscripts',
      headers: {
        chartfile: fileName
      },
