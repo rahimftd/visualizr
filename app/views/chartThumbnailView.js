@@ -1,7 +1,7 @@
 var ChartThumbnailView = Backbone.View.extend({
-  tagName: 'div',
+  tagName: 'li',
 
-  template: _.template('<h5><%= title %></h5>'),
+  template: _.template('<%= title %>'),
 
   events: {
     'click': function() {
@@ -10,7 +10,8 @@ var ChartThumbnailView = Backbone.View.extend({
   },
 
   render: function() {
-    this.$el.attr('class', 'col-md-3 nav');
+    this.$el.attr('class', 'nav-item nav-link');
+    this.$el.attr('style', 'margin: 20px');
     return this.$el.html(this.template(this.model.attributes));
   }
 

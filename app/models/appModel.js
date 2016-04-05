@@ -10,6 +10,6 @@ var AppModel = Backbone.Model.extend({
 
     this.get('dataDropdownCollection').on('swapData', function(dataset) {
       this.get('chartModel').loadNewDataset(dataset);
-    }, this)
+    }, this);
   }
 });

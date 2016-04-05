@@ -14,5 +14,9 @@ var dataOptions = [
   {
     name: 'NY Crime Stats',
     file: 'data/nycrime.json'
+  },
+  {
+    name: 'Top 30 Metropolitian Areas',
+    file: 'data/citiesbypopulation.json'
   }
 ];

@@ -26,5 +26,22 @@ app.get('/chartscripts', function(request, response) {
   });
 });
 
+app.post('/newchartdata', function(request, response) {
+  console.log('FILES', request.files);
+  response.redirect('/');
+});
+
+app.get('/dataoptions', function(request, response) {
+  var dataOptionsPath = __dirname + '/data/dataoptions.json';
+  fs.readFile(dataOptionsPath, function(error, data) {
+    if (error) {
+      console.log('There was an error reading data options', error);
+      response.send(404);
+    } else {
+      response.send(data);
+    }
+  })
+});
+
 app.listen(port);
 console.log('Server listening on port', port)

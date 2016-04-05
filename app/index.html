@@ -11,7 +11,7 @@
 
 
   <script type="text/javascript" src="data/chartThumbnailData.js"></script>
-  <script type="text/javascript" src="data/dataOptions.js"></script>
+  <!--<script type="text/javascript" src="data/dataOptions.js"></script>-->
 
   <script type="text/javascript" src="models/appModel.js"></script>
   <script type="text/javascript" src="models/chartModel.js"></script>
@@ -29,12 +29,67 @@
   <script type="text/javascript" src="views/dataDropdownModelView.js"></script>
 </head>
 <body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-10 jumbotron jumbotron-fluid" id="title-container">
+        <h1>Visualizr</h1>
+        <h4>Interactive, user-friendly data visualizer</h4>
+      </div>
+      <div class="col-md-1">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-10">
+        <form action="/newchartdata" method="POST" enctype="multipart/form-data">
+          Select data to upload:
+          <input type="file" name="json"> 
+          <input type="submit" value="Upload Data">
+        </form>
+      </div>
+      <div class="col-md-1">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-10">
+        <nav class="navbar navbar-light" id="nav-container">
+        </nav>
+      </div>
+      <div class="col-md-1">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-10" id="data-container">
+      </div>
+      <div class="col-md-1">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-10" id="chart-container">
+      </div>
+      <div class="col-md-1">
+      </div>
+    </div>
+  </div>
   <script type="text/javascript">
-    var app = new AppModel();
+    $.get('http://127.0.0.1:3000/dataoptions', function(data) {
+      var parsedData = JSON.parse(data);
+      window.dataOptions = parsedData;
+      window.app = new AppModel();
 
-    var appView = new AppView({ model: app });
+      window.appView = new AppView({ model: window.app });
 
-    $('body').append(appView.render()); 
+      window.appView.render();
+    });
   </script>
 </body>
 </html>

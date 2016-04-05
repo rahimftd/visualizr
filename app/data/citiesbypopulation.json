@@ -1,0 +1,244 @@
+{
+  "name" : "Top 30 Cities by Population",
+  "children" : [
+    {
+      "name" : "Asia",
+      "children": [
+        {
+          "name": "Japan",
+          "children": [
+            {
+              "name": "Tokyo",
+              "size": 37
+            },
+            {
+              "name": "Osaka",
+              "size": 19
+            },
+            {
+              "name": "Nagoya",
+              "size": 9
+            }
+          ]
+        },
+        {
+          "name": "S Korea",
+          "children": [
+            {
+              "name": "Seoul",
+              "size": 26
+            }
+          ]
+        },
+        {
+          "name": "China",
+          "children": [
+            {
+              "name": "Shanghai",
+              "size": 25
+            },
+            {
+              "name": "Guangzhou",
+              "size": 24
+            },
+            {
+              "name": "Beijing",
+              "size": 21
+            },
+            {
+              "name": "Shenzen",
+              "size": 11
+            }
+          ]
+        },
+        {
+          "name": "India",
+          "children": [
+            {
+              "name": "New Delhi",
+              "size": 22
+            },
+            {
+              "name": "Mumbai",
+              "size": 21
+            },
+            {
+              "name": "Kolkata",
+              "size": 15
+            },
+            {
+              "name": "Chennai",
+              "size": 9
+            }
+          ]
+        },
+        {
+          "name": "Bangladesh",
+          "children": [
+            {
+              "name": "Dhaka",
+              "size": 17
+            }
+          ]
+        },
+        {
+          "name": "Iran",
+          "children": [
+            {
+              "name": "Tehran",
+              "size": 15
+            }
+          ]
+        },
+        {
+          "name": "Turkey",
+          "children": [
+            {
+              "name": "Istanbul",
+              "size": 14
+            }
+          ]
+        },
+        {
+          "name": "Philippines",
+          "children": [
+            {
+              "name": "Manila",
+              "size": 12
+            }
+          ]
+        },
+        {
+          "name": "Indonesia",
+          "children": [
+            {
+              "name": "Jakarta",
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Pakistan",
+          "children": [
+            {
+              "name": "Karachi",
+              "size": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name" : "Africa",
+      "children": [
+        {
+          "name": "Nigeria",
+          "children": [
+            {
+              "name": "Lagos",
+              "size": 21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name" : "The Americas and Caribbean",
+      "children": [
+        {
+          "name": "Mexico",
+          "children": [
+            {
+              "name": "Mexico City",
+              "size": 21
+            }
+          ]
+        },
+        {
+          "name": "Brazil",
+          "children": [
+            {
+              "name": "Sao Paulo",
+              "size": 21
+            },
+            {
+              "name": "Rio De Janeiro",
+              "size": 12
+            }
+          ]
+        },
+        {
+          "name": "Argentina",
+          "children": [
+            {
+              "name": "Buenos Aires",
+              "size": 13
+            }
+          ]
+        },
+        {
+          "name": "Peru",
+          "children": [
+            {
+              "name": "Lima",
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "USA",
+          "children": [
+            {
+              "name": "New York",
+              "size": 20
+            },
+            {
+              "name": "Los Angeles",
+              "size": 13
+            },
+            {
+              "name": "Chicago",
+              "size": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name" : "Europe",
+      "children": [
+        {
+          "name": "UK",
+          "children": [
+            {
+              "name": "London",
+              "size": 14
+            }
+          ]
+        },
+        {
+          "name": "France",
+          "children": [
+            {
+              "name": "Paris",
+              "size": 12
+            }
+          ]
+        },
+        {
+          "name": "Germany",
+          "children": [
+            {
+              "name": "Rhine-Ruhr",
+              "size": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name" : "Oceania",
+      "children": []
+    }
+  ]
+}
