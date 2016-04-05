@@ -21,7 +21,7 @@ app.use(function(request, response, next) {
 
 // Serves scripts for d3 visualizations
 app.get('/chartscripts', function(request, response) {
-  var chartScriptPath = 'chartScripts/' + request.headers.chartfile;
+  var chartScriptPath = __dirname + '/chartScripts/' + request.headers.chartfile;
   fs.readFile(chartScriptPath, function(error, data) {
     if(error) {
       console.log('There was an error reading the file', error);
@@ -82,7 +82,7 @@ app.get('/chartoptions', function(request, response) {
 
 // Serves chart data to client
 app.get('/data/*', function(request, response) {
-  var jsonFilePath = request.url.slice(1);
+  var jsonFilePath = __dirname + '/' + request.url.slice(1);
   fs.readFile(jsonFilePath, function(error, data) {
     if(error) {
       console.log('There was an error reading the json data file', error)
